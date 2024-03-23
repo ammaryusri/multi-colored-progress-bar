@@ -1,0 +1,23 @@
+{
+  "name": "multi-colored-progress-bar",
+  "version": "1.0.0",
+  "description": "multi colored progress bar component that can be easily integrated into any applications to visualize progress in a visually appealing way. The component allows customization of colors and weightages to suit different use cases.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ammaryusri/multi-colored-progress-bar.git"
+  },
+  "keywords": [
+    "progress-bar",
+    "multi-colored-progress-bar"
+  ],
+  "author": "Ammar Yusri",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ammaryusri/multi-colored-progress-bar/issues"
+  },
+  "homepage": "https://github.com/ammaryusri/multi-colored-progress-bar#readme"
+}

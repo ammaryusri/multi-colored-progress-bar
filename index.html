@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Multi Progress Bar Example</title>
+    <style>
+        .progress-bar {
+            height: 20px;
+            width: 100%;
+            border-radius: 10px;
+            position: relative;
+            margin-bottom: 1rem;
+            background-color: #dddddd;
+        }
+
+        .inner-bars-container {
+            display: flex;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        .inner-bar {
+            border-radius: 0;
+        }
+
+        .inner-bar:first-child {
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+        }
+
+        .inner-bar:last-child {
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Your content -->
+    <div class="progress-bar" id="progressBar">
+        <div class="inner-bars-container" id="innerBarsContainer">
+            <!-- Inner bars will be dynamically added here using JavaScript -->
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+
+</html>
